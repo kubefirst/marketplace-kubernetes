@@ -5,7 +5,7 @@ set -e
 ################################################################################
 # repo
 ################################################################################
-helm repo add openebs-nfs https://openebs.github.io/dynamic-nfs-provisioner
+helm repo add openebs-nfs https://openebs-archive.github.io/dynamic-nfs-provisioner
 helm repo update > /dev/null
 
 ################################################################################
